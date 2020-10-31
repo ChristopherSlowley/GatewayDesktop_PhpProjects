@@ -1,8 +1,17 @@
-<?php phpinfo(); ?>
+<html>
+    
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/getHeader.js"></script>
+        
+    </head>
+    <body>
+        <div id="headerRow"></div>
+        <button onclick="getHeader()">Get Header</button>
+        <?php
+            echo "Welocme to the World of PHP!" ; 
+        ?>
+    </body>
+</html>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
