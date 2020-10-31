@@ -11,7 +11,7 @@ function getHeader()
         data: "name="+myName,
         success: function(data){
             phpResult = data;
-            document.getElementById("headerRow").innerHTML = "The text from the intro paragraph is " + phpResult;
+            document.getElementById("headerRow").innerHTML = "The text for the intro paragraph is " + phpResult;
          //   console
         }
     });

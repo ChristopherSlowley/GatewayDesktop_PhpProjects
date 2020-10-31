@@ -9,7 +9,7 @@
         <div id="headerRow"></div>
         <button onclick="getHeader()">Get Header</button>
         <?php
-            echo "Welocme to the World of PHP!" ; 
+            echo "Welcome to the World of PHP Web Development using the LAMP stack!" ;  
         ?>
     </body>
 </html>
